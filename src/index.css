@@ -1,0 +1,54 @@
+:root {
+  /* Colors */
+  --main-text-color: #a7d1d2;
+  --second-text-color: #2f3148;
+  --main-input-color: #015366;
+
+  --main-background-color: #3f5576;
+  --main-background-btn-color: #8689ac;
+  --main-background-footer-color: #587099;
+  --second-background-color: #e0f4f5;
+  --accent-background-color: #101116;
+
+  /* Fonts */
+  --main-font: 'Inter', sans-serif;
+  --second-font: 'Playfair Display';
+  --main-nav-font: 'Italiana', sans-serif;
+
+  /* Fonts size */
+  --main-size: 14px;
+  --large-size: 40px;
+  --medium-size: 24px;
+  --small-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1110px;
+  margin-top: 20px;
+}
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
